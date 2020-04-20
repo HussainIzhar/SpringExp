@@ -13,8 +13,8 @@ public class DrawingAppln {
 		tr.draw();	
 		System.out.println(tr.getType());
 		System.out.println(tr.getSides());
-		System.out.println(tr.getPointA());
-		System.out.println(tr.getPointB());
+		System.out.println("Point A : x"+tr.getPointA().getX()+" y:"+tr.getPointA().getY());
+		System.out.println("Point B : x"+tr.getPointB().getX()+" y:"+tr.getPointB().getY());
 
 	}
 
